@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Explorer">
+        <meta name="viewport" content="">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Encriptador de Texto</title>
+    </head>    
+    <body>
+        <header>     
+            <h1 class="titulo">Encriptador de Texto</h1>       
+            <h1 class="logo"><img src="imagenes/alura.png" alt="logo de alura"></h1>           
+        </header>
+        
+        <main>
+
+            <section class="seccion1">
+                <textarea class="texto-ingresado" cols="36" rows="15"
+                placeholder="Ingrese el texto aqui"></textarea>
+
+                <div id="desaparece">
+                    <h6 class="informacion">&#128712; Solo letras minúsculas y sin acentos.</h6>
+                </div>
+                
+                <div class="botones">
+                    <input type="submit" value="Encriptar" class="encriptar" onclick="btnEncriptar()">
+                    <input type="submit" value="Desencriptar" class="desencriptar" onclick="btnDesencriptar()">
+                </div>
+
+            </section>
+
+            <section class="seccion2">
+                <textarea class="mensaje-encriptado" cols="28" rows="15"></textarea>
+                <input type="submit" value="Copiar Texto" class="copiar" onclick="btnCopiar()">
+            </section>
+
+        </main>
+
+        <script src="script.js"></script>
+
+    </body>
+    <footer>
+        <a href="https://www.instagram.com/juancho_2801?r=nametag" target="_blank"><img src="imagenes/instagram.svg" alt="Icono de instagram"></a>
+        <a href="" target="_blank"><img src="imagenes/github.svg" alt="Icono de github"></a>
+        <a href="https://www.linkedin.com/in/juan-carlos-machado/" target="_blank"><img src="imagenes/linkedin.svg" alt="Icono de Linkedin"></a>
+        <p class="copyright">Desarrollado por: <span> Juan Carlos Machado </span> © 2022 Todos los derechos reservados</p>
+    </footer>
+    
+</html>
