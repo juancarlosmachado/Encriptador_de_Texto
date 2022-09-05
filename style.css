@@ -36,6 +36,8 @@ main{
 .seccion1{
     padding: 20px 25px;
     margin-left: 20%;
+    border: 1px solid #00398b;
+    border-radius: 30px;
 }
 
 .seccion2{
