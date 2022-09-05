@@ -108,7 +108,7 @@ main{
 
 .mensaje-encriptado{
     position: relative;
-    background-image: url("imagenes/muñeco.png"),url(imagenes/mensaje.png);
+    background-image: url(imagenes/avatar.png),url(imagenes/mensaje.png);
     background-repeat: no-repeat,no-repeat;
     background-size: 250px,250px;
     background-position-x: center,center;
