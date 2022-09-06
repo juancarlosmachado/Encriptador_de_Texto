@@ -6,8 +6,6 @@
 }
 Header{    
     display: flex;
-    width: 100%;
-    height: 100%;
     background-image: url(imagenes/degradado.jpg);
 }
 .logo{
@@ -26,8 +24,6 @@ Header{
 
 
 body{
-    width: 100%;
-    min-height: 100vh;
     background-color: white;
 }
 
@@ -152,7 +148,6 @@ footer{
     text-align: center;
     background: url(imagenes/degradado.jpg);
     padding: 50px;
-    width: 100%;
 }
 
 footer a img{
