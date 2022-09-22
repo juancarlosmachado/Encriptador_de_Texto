@@ -1,0 +1,8 @@
+inicio de estilo: 
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 100%;
+}
+
