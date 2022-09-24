@@ -164,13 +164,6 @@ footer{
     left: 0;
 }
 
-/*position:fixed;
-left:0px;
-bottom:0px;
-height:30px;
-width:100%;
-background:#999;*/
-
 .redes{
     margin: 0.5em;
     transition: 1s all;
@@ -186,87 +179,4 @@ background:#999;*/
     font-size: 18px;
     margin: 1em;
     font-style: bold;
-}
-/*
-@media screen and (max-height:100VH) {
-
-    body{
-        display: block; 
-        width: auto; 
-        height: auto;
-    }
-
-    main{
-        display: block; 
-        width: auto; 
-        height: auto;
-    }
-
-    .seccion1, .seccion2{
-        width: 800px;
-        display: block;
-        padding: 0.5em;
-        margin-left: 5%;
-        border: 1px solid #00398b;
-        border-radius: 30px;
-    }
-    
-    .mensaje-encriptado{
-        width: auto;
-        position: relative;
-        background-image: url(imagenes/avatar.png),url(imagenes/mensaje.png);
-        background-repeat: no-repeat,no-repeat;
-        background-size: 130px,150px;
-        background-position-x: 20px,160px;
-        background-position-y: center,center;
-        resize: none;
-        border: none;
-        border-radius: 30px;
-        padding: 10px 10px; 
-    }
-    .mensaje-encriptado:focus{
-        outline: none;
-    }
-   
-}
-@media screen and (max-width:100VH) {
-
-    body{
-        display: block; 
-        width: auto; 
-        height: auto;
-    }
-
-    main{
-        display: block; 
-        width: auto; 
-        height: auto;
-    }
-
-    .seccion1, .seccion2{
-        width: 800px;
-        display: block;
-        padding: 0.5em;
-        margin-left: 5%;
-        border: 1px solid #00398b;
-        border-radius: 30px;
-    }
-    
-    .mensaje-encriptado{
-        width: auto;
-        position: relative;
-        background-image: url(imagenes/avatar.png),url(imagenes/mensaje.png);
-        background-repeat: no-repeat,no-repeat;
-        background-size: 130px,150px;
-        background-position-x: 20px,160px;
-        background-position-y: center,center;
-        resize: none;
-        border: none;
-        border-radius: 30px;
-        padding: 10px 10px; 
-    }
-    .mensaje-encriptado:focus{
-        outline: none;
-    }
-   
 }
