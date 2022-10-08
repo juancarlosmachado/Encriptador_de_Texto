@@ -100,7 +100,7 @@ body {
 .seccion2-mensaje-encriptado{
     background-image: url(imagenes/avatar.png),url(imagenes/mensaje.png);
     background-repeat: no-repeat,no-repeat;
-    background-size: 160px,160px;
+    background-size: 150px,150px;
     background-position-x: center,center;
     background-position-y: 25px,170px;
     resize: none;
