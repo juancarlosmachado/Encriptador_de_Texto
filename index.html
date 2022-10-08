@@ -1,49 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=Explorer">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
-        <meta name="viewport" content="">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-        <title>Encriptador de Texto</title>
-    </head>    
-    <body>
-        <header>            
-                <h1 class="logo"><img src="imagenes/alura.png" alt="logo de alura"></h1> 
-                <div class="titulo">
-                    <h1 class="titulo-2">ENCRIPTADOR DE TEXTO</h1>
-                </div>                            
-        </header>        
-        <main>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Explorer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/flexbox.css">
+    <title>Encriptador de Texto</title>
+</head>
+
+<body>
+
+    <header class="headerPrincipal">
+        <div class="container">
+            <h1 class="logo-alura"><img src="imagenes/alura.png" alt="logo de alura"></h1>
+            <h1 class="titulo-pagina-2">ENCRIPTADOR DE TEXTO</h1>
+        </div>
+    </header>
+
+    <main class="contenido-principal">
+        <div class="container">
+
             <section class="seccion1">
-                <textarea class="texto-ingresado" cols="28" rows="10"
-                placeholder="Ingrese el texto aqui"></textarea>
-                <div class="informacion">
+                <div class="seccion1-texto">
+                    <textarea class="seccion1-texto-ingresado" cols="60" rows="12"
+                        placeholder="Ingrese el texto aqui"></textarea>
+                </div>
+
+                <div class="seccion1-informacion">
                     <h6>&#128712; Solo letras minúsculas y sin acentos.</h6>
-                </div>                
-                <div class="botones">
-                    <input type="submit" value="Encriptar" class="encriptar" onclick="btnEncriptar()">
-                    <input type="submit" value="Desencriptar" class="desencriptar" onclick="btnDesencriptar()">
+                </div>
+                <div class="seccion1-botones">
+                    <input type="submit" value="Encriptar" class="seccion1-botones-encriptar" onclick="btnEncriptar()">
+                    <input type="submit" value="Desencriptar" class="seccion1-botones-desencriptar"
+                        onclick="btnDesencriptar()">
                 </div>
             </section>
+
             <section class="seccion2">
-                <textarea class="mensaje-encriptado" cols="30" rows="12"></textarea>
-                <input type="submit" value="Copiar Texto" class="copiar" onclick="btnCopiar()">
+                <div class="seccion2-mensaje">
+                    <textarea class="seccion2-mensaje-encriptado" cols="60" rows="15"></textarea>
+                </div>
+
+                <div class="seccion2-btn">
+                    <input type="submit" value="Copiar Texto" class="seccion2-btn-copiar" onclick="btnCopiar()">
+                </div>
+
             </section>
-        </main>
+        </div>
+    </main>
 
-        <footer>
-            <a href="https://github.com/juancarlosmachado/Encriptador_de_Texto" target="_blank"><img src="imagenes/github.svg" alt="Icono de github" class="redes"></a>
-            <a href="https://www.linkedin.com/in/juan-carlos-machado/" target="_blank"><img src="imagenes/linkedin.svg" alt="Icono de Linkedin" class="redes"></a>
-            <p class="copyright">Desarrollado por: Juan Carlos Machado © 2022 Challenge ONE</p>
-        </footer>
-        
-        <script src="script.js"></script>
+    <footer class="footer-principal">
+        <div class="container">
+            <div class="redes-1">
+                <a href="https://github.com/juancarlosmachado/Encriptador_de_Texto" target="_blank"><img
+                        src="imagenes/github.svg" alt="Icono de github" class="redes"></a>
+                <a href="https://www.linkedin.com/in/juan-carlos-machado/" target="_blank"><img
+                        src="imagenes/linkedin.svg" alt="Icono de Linkedin" class="redes"></a>
+            </div>
 
-    </body>
- 
 
-     
+            <div class="rodapie-copyright">
+                <p class="rodapie-copyright-1">Desarrollado por: Juan Carlos Machado © 2022 Challenge ONE</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
 </html>

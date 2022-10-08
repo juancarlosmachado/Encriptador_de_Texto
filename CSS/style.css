@@ -1,0 +1,163 @@
+body {
+	background-color: #ffffff;
+	font-family: 'Open Sans',Arial,sans-serif;
+}
+
+.container {
+	width: 94%;
+	margin: 0 auto;
+}
+
+.headerPrincipal {
+    background: linear-gradient(#1798e8, #fefefe);
+	padding: 10px 0;
+    margin-bottom: 15px;
+}
+
+.titulo-pagina-2 {
+	font-weight: bold;
+    color: #00398b;
+	font-size: 2em;
+	margin-bottom: 10px;
+    text-align: center;
+}
+
+.contenido-principal {
+    padding-top: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.seccion1{
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 19px -1px #0086FC;
+}
+
+.seccion1-texto-ingresado{
+    margin: 15px 15px; 
+    resize: none;
+    border: none;
+    padding: 0.5em auto;
+}
+
+.seccion1-texto-ingresado::placeholder{
+    color: #167cbb;
+}
+.seccion1-texto-ingresado:focus{
+    outline: none;
+}
+
+.seccion1-informacion {
+    font-size: 20px;
+    color: #167cbb;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.seccion1-botones{
+    padding: 18px;
+}
+.seccion1-botones-encriptar {
+    padding: 18px;
+    font-weight: bold;
+    color: white;
+    background: #00398b;
+    border: none;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer; 
+   
+}
+
+.seccion1-botones-encriptar:hover{
+    background: #00913f;
+    transform: scale(1.1)
+}
+
+.seccion1-botones-desencriptar {
+    padding: 18px;
+    font-weight: bold;
+    color: white;
+    background: #00398b;
+    border: none;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;    
+   
+}
+
+.seccion1-botones-desencriptar:hover{
+    background: #00913f;
+    transform: scale(1.1)
+}
+
+.seccion2{
+    background-color: #ffffff;
+    border-radius: 30px;
+    box-shadow: 0px 0px 19px -1px #0086FC;
+}
+
+.seccion2-mensaje-encriptado{
+    background-image: url(imagenes/avatar.png),url(imagenes/mensaje.png);
+    background-repeat: no-repeat,no-repeat;
+    background-size: 160px,160px;
+    background-position-x: center,center;
+    background-position-y: 25px,170px;
+    resize: none;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 10px; 
+}
+.seccion2-mensaje-encriptado:focus{
+    outline: none;
+}
+
+.seccion2-btn{
+    padding: 18px;
+}
+
+.seccion2-btn-copiar{
+    margin-top: 2em;
+    padding: 18px;
+    font-weight: bold;
+    color: white;
+    background: #00398b;
+    border: none;
+    border-radius: 20px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.seccion2-btn-copiar:hover{
+    background: #00913f;
+    transform: scale(1.1)
+}
+
+.footer-principal{
+    margin-top: 20px;
+    background: linear-gradient(#fefefe, #1798e8);
+    padding-top: 30px;
+    bottom: 0;
+    left: 0;
+}
+
+.redes-1{
+    padding-top: 50px;
+}  
+
+.redes{
+    margin: 0.5em;
+    transition: 1s all;
+    width: 50px;
+}
+
+.redes:hover{
+    transform: scale(1.3)
+}
+
+.rodapie-copyright{
+    color: #2b2467;
+    font-size: 18px;
+    margin: 1em;
+    font-style: bold;
+}

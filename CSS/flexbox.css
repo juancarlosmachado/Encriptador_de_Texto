@@ -1,0 +1,75 @@
+.headerPrincipal .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenido-principal .container{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.contenido-principal {
+    min-height: calc(100vh - 120px - 250px);
+}
+
+.seccion1, .seccion2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seccion1-botones, .seccion2-btn{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.footer-principal .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* responsive de la pagina */
+@media (max-width: 760px){
+
+.headerPrincipal .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+}
+
+.contenido-principal .container{
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.seccion1, .seccion2, .seccion1-texto-ingresado,.seccion2-mensaje-encriptado{
+    width: 70%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.seccion1-botones, .seccion2-btn{
+    justify-content: space-around;
+    width: 30%;
+}
+
+.seccion1-informacion {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+}
+
+
+

@@ -1,6 +1,6 @@
-const textoIngresado = document.querySelector(".texto-ingresado");
-const mensajeEncriptado = document.querySelector(".mensaje-encriptado");
-const btnCopy = document.querySelector(".copiar");
+const textoIngresado = document.querySelector(".seccion1-texto-ingresado");
+const mensajeEncriptado = document.querySelector(".seccion2-mensaje-encriptado");
+const btnCopy = document.querySelector(".seccion2-btn-copiar");
 btnCopy.style.display = "none";
 
 // Encriptar Mensaje;
